@@ -122,6 +122,33 @@ JsonParser/fast:
 	$(MAKE) -f CMakeFiles\JsonParser.dir\build.make CMakeFiles/JsonParser.dir/build
 .PHONY : JsonParser/fast
 
+hashtable.obj: hashtable.cpp.obj
+
+.PHONY : hashtable.obj
+
+# target to build an object file
+hashtable.cpp.obj:
+	$(MAKE) -f CMakeFiles\JsonParser.dir\build.make CMakeFiles/JsonParser.dir/hashtable.cpp.obj
+.PHONY : hashtable.cpp.obj
+
+hashtable.i: hashtable.cpp.i
+
+.PHONY : hashtable.i
+
+# target to preprocess a source file
+hashtable.cpp.i:
+	$(MAKE) -f CMakeFiles\JsonParser.dir\build.make CMakeFiles/JsonParser.dir/hashtable.cpp.i
+.PHONY : hashtable.cpp.i
+
+hashtable.s: hashtable.cpp.s
+
+.PHONY : hashtable.s
+
+# target to generate assembly for a file
+hashtable.cpp.s:
+	$(MAKE) -f CMakeFiles\JsonParser.dir\build.make CMakeFiles/JsonParser.dir/hashtable.cpp.s
+.PHONY : hashtable.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... JsonParser
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... hashtable.obj
+	@echo ... hashtable.i
+	@echo ... hashtable.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

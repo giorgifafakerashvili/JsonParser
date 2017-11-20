@@ -82,7 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/support/CLionProjects/JsonParser/config.h">
+			<Option target="JsonParser"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/JsonParser/hashtable.cpp">
+			<Option target="JsonParser"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/JsonParser/hashtable.h">
+			<Option target="JsonParser"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/JsonParser/janson.h">
+			<Option target="JsonParser"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/JsonParser/lookup3.h">
+			<Option target="JsonParser"/>
+		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/JsonParser/main.cpp">
+			<Option target="JsonParser"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/JsonParser/private.h">
 			<Option target="JsonParser"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/JsonParser/CMakeLists.txt">

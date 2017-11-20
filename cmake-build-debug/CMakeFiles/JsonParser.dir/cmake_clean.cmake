@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/JsonParser.dir/main.cpp.obj"
+  "CMakeFiles/JsonParser.dir/hashtable.cpp.obj"
   "JsonParser.pdb"
   "JsonParser.exe"
   "JsonParser.exe.manifest"
